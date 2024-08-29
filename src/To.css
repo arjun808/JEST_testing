@@ -1,0 +1,84 @@
+.parent {
+    width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f4f4f4;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .parent p {
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .map {
+    margin: 20px 0;
+  }
+  
+  .map div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px;
+    background-color: #fff;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .map div span {
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .map div span:first-child {
+    width: 25px;
+    text-align: center;
+  }
+  
+  .map div span:nth-child(2) {
+    flex-grow: 1;
+    margin-left: 10px;
+  }
+  
+  .map div span:nth-child(3),
+  .map div span:nth-child(4) {
+    font-size: 18px;
+    
+    padding: 5px;
+  }
+  
+  .map div span:nth-child(3) {
+    color: #f44336;
+  }
+  
+  .map div span:nth-child(4) {
+    color: #4caf50;
+  }
+  
+  input[type="text"] {
+    width: calc(100% - 50px);
+    padding: 8px;
+    font-size: 16px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    margin-right: 10px;
+  }
+  
+  button {
+    padding: 8px;
+    font-size: 18px;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
